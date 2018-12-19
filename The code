@@ -1,0 +1,98 @@
+
+const int valvepin1 =  0
+
+.............................................................................................................33333333333333333333333330;
+const int valvepin3 =  11;
+const int valvepin4 =  12;
+const int valvepin5 =  13;
+
+const int vmotorpin1 =  0;
+const int vmotorpin2 =  1;
+const int vmotorpin3 =  2;
+const int vmotorpin4 =  3;
+const int vmotorpin5 =  4;
+const int vmotorpin6 =  5;
+const int vmotorpin7 =  6;
+const int vmotorpin8 =  7;
+
+int incomingAudio;
+
+
+
+
+
+void setup() {
+
+  
+  
+  // set the digital pin as output:
+  Serial.begin(9600);
+  pinMode(valvepin1, OUTPUT);
+  pinMode(valvepin2, OUTPUT);
+  pinMode(valvepin3, OUTPUT);
+  pinMode(valvepin4, OUTPUT);
+  pinMode(valvepin5, OUTPUT);
+
+  pinMode(vmotorpin1, OUTPUT);
+  pinMode(vmotorpin2, OUTPUT);
+  pinMode(vmotorpin3, OUTPUT);
+  pinMode(vmotorpin4, OUTPUT);
+  pinMode(vmotorpin5, OUTPUT);
+  pinMode(vmotorpin6, OUTPUT);
+  pinMode(vmotorpin7, OUTPUT);
+  pinMode(vmotorpin8, OUTPUT);
+
+  
+
+ 
+  
+  
+  
+}
+
+void loop()
+{
+
+    
+    incomingAudio = analogRead(A5);//read input from A0
+    Serial.println(incomingAudio);
+    digitalWrite(valvepin1, HIGH);
+    digitalWrite(valvepin2, HIGH);
+    digitalWrite(valvepin3, HIGH);
+    digitalWrite(valvepin4, HIGH);
+    digitalWrite(valvepin5, HIGH);
+    digitalWrite(vmotorpin1, HIGH);
+    digitalWrite(vmotorpin2, LOW);
+    digitalWrite(vmotorpin3, HIGH);
+    digitalWrite(vmotorpin4, LOW);
+    digitalWrite(vmotorpin5, HIGH);
+    digitalWrite(vmotorpin6, LOW);
+    digitalWrite(vmotorpin7, HIGH);
+    digitalWrite(vmotorpin8, LOW);
+
+    
+    
+    
+    delay(1000);
+    
+    digitalWrite(valvepin1, LOW);
+    digitalWrite(valvepin2, LOW);
+    digitalWrite(valvepin3, LOW);
+    digitalWrite(valvepin4, LOW);
+    digitalWrite(valvepin5, LOW);
+    digitalWrite(vmotorpin1, LOW);
+    digitalWrite(vmotorpin2, HIGH);
+    digitalWrite(vmotorpin3, LOW);
+    digitalWrite(vmotorpin4, HIGH);
+    digitalWrite(vmotorpin5, LOW);
+    digitalWrite(vmotorpin6, HIGH);
+    digitalWrite(vmotorpin7, LOW);
+    digitalWrite(vmotorpin8, HIGH);
+
+    
+    delay(2000);
+
+   
+  }
+
+  
