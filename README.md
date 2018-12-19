@@ -8,7 +8,7 @@ This work describes the design process of the vest- from the idea, trough the di
 
 ## Team Members
  * Mariana Tamashiro
- * Purnend
+ * Purnendu
  * Rona Sadan
 
 ## The process 
