@@ -3,7 +3,7 @@ Sonohaptics is a wearable vest which enhances the music experience for music lov
 This work describes the design process of the vest- from the idea, trough the different iteration and up to the final prototype.
 
 ## Figure:
-[Figure Images] (https://github.com/Ronasadan/Sonohaptics/blob/master/sonohaptics_slide.png)
+![Figure Images] (https://github.com/Ronasadan/Sonohaptics/blob/master/sonohaptics_slide.png)
 
 
 ## Team Members
