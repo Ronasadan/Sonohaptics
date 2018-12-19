@@ -3,6 +3,15 @@ Sonohaptics is a wearable vest which enhances the music experience for music lov
 This work describes the design process of the vest- from the idea, trough the different iteration and up to the final prototype.
 
 # Team Members
-<Mariana Tamashiro/>
-<Purnendu/>
-<Rona Sadan/>
+ Mariana Tamashiro
+li Purnend
+ Rona Sadan
+
+# The process 
+The project consists of several output elements : 
+ Pressure waving pneumatic  We designed two waist straps made of six pneumatic pouches each. The straps and pouches were made of TPU coated Nylon fabric, heat-sealed with pieces of baking sheets.
+
+First step: Iterating on different pouches patterns with trash bags. 
+
+
+
